@@ -7,7 +7,6 @@ void convertarray(int *array,int n){
     {
        cout<<" 2D matrix is not possible for this array";
     }
-    
     for (int i = 0; i <m; i++)
     {
         for (int j = 0; j < p; j++)
