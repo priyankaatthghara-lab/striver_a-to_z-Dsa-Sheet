@@ -3,7 +3,7 @@ using namespace std;
 void convertarray(int *array,int n){
     int m=3; int p=2;
     int matrix[m][p]; int idx=0;
-    if (sizeof(array)!= m*p)
+    if (n!= m*p)
     {
        cout<<" 2D matrix is not possible for this array";
     }
